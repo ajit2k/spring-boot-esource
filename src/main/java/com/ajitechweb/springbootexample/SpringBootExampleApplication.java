@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashSet;
 
 @SpringBootApplication
-@RestController
 public class SpringBootExampleApplication {
 
 	@Autowired
@@ -24,7 +23,7 @@ public class SpringBootExampleApplication {
 
 		System.out.println("List of Available Numbers :"+availableNumbers);
 
-	    int highestPrimeNumber = serviceArray.largestPrimeNumber(availableNumbers);
+		int highestPrimeNumber = serviceArray.largestPrimeNumber(availableNumbers);
 
 		System.out.println("Highest prime number in available Numbers --> "+highestPrimeNumber);
 	}
