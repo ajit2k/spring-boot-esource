@@ -10,8 +10,7 @@ import java.util.HashSet;
 public class SpringBootExampleApplication {
 
 	@Autowired
-	static
-	ServiceArray serviceArray;
+	static ServiceArray serviceArray;
 
 	public static void main(String[] args) throws VaultException {
 		SpringApplication.run(SpringBootExampleApplication.class, args);
